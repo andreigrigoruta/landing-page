@@ -21,8 +21,8 @@ body {
   display: flex;
   align-items: center;
   padding: 112px 200px;
-  justify-content: space-between;
   gap: 48px;
+  justify-content: space-between;
 }
 
 .menu-container {
@@ -66,7 +66,7 @@ h3 {
 
 p {
   margin: 0;
-  padding: 4px 0;
+  padding: 8px 0 8px 0;
   color: white;
 }
 
@@ -82,22 +82,21 @@ button {
 h1 {
   font-size: 48px;
   color: #f9faf8;
-  padding: 0px 0;
+  padding: 0;
   margin: 0;
 }
 
 img {
-  max-height: 200px;
+  max-height: 203px;
   width: auto;
 }
 
 .button-signup {
-  padding-top: 4px;
+  padding-top: 8px;
 }
 
 p {
   font-size: 18px;
-  line-height: 24px;
   color: #e5e7eb;
 }
 
