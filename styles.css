@@ -1,0 +1,107 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 112px 200px;
+  justify-content: space-between;
+  gap: 48px;
+}
+
+.menu-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 200px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  max-height: 50px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: #e5e7eb;
+}
+
+.container-first-section {
+  background-color: #1f2937;
+  width: 100%;
+}
+
+h3 {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+p {
+  margin: 0;
+  padding: 4px 0;
+  color: white;
+}
+
+button {
+  padding: 8px 32px;
+  background-color: #3882f6;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 48px;
+  color: #f9faf8;
+  padding: 0px 0;
+  margin: 0;
+}
+
+img {
+  max-height: 200px;
+  width: auto;
+}
+
+.button-signup {
+  padding-top: 4px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 24px;
+  color: #e5e7eb;
+}
+
+h3 {
+  font-size: 18px;
+  color: #f9faf8;
+}
