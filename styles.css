@@ -216,3 +216,16 @@ p.calltoaction {
   font-weight: bold;
   font-size: 20px;
 }
+
+footer {
+  background-color: #1f2937;
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+
+footer p {
+  font-size: 14px;
+  padding: 36px 0;
+  color: #e5e7eb;
+}
