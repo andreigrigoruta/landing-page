@@ -87,7 +87,7 @@ h1 {
 }
 
 h2 {
-  font-size: 36px;
+  font-size: 32px;
   color: #1f2937;
   padding: 48px 0;
   margin: 0;
@@ -100,8 +100,8 @@ h3 {
 }
 
 .header-image {
-  max-width: 310px;
-  width: auto;
+  width: 450px;
+  max-height: 228px;
   object-fit: cover;
 }
 
@@ -175,6 +175,9 @@ p.author {
 
 .fourth-section {
   padding: 100px 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .container-fourth-section {
@@ -182,15 +185,20 @@ p.author {
   justify-content: space-between;
   align-items: center;
   background-color: #3882f6;
-  padding: 50px 100px;
-  min-width: 850px;
+  padding: 40px 100px;
   border-radius: 10px;
+  flex-grow: 1;
+  max-width: 880px;
 }
 
 .fourth-1st p {
   margin: 0;
   padding: 2px 0;
   font-size: 14px;
+}
+
+.fourth-1st {
+  padding-right: 20px;
 }
 
 #signup2 {
@@ -201,7 +209,7 @@ p.author {
   border: 2px solid;
   font-weight: bold;
   height: 31px;
-  width: 113px;
+  min-width: 113px;
 }
 
 p.calltoaction {
