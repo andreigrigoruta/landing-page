@@ -156,21 +156,18 @@ h3 {
 }
 
 .third-section p {
-  font-size: 32px;
+  font-size: 28px;
   font-style: italic;
-  font-weight: 100;
   color: #1f2937;
-  width: 620px;
+  width: 680px;
   margin: 0;
   padding: 0;
 }
 
 p.author {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: bold;
-}
-
-.quote-container {
-  display: flex;
-  flex-direction: column;
+  font-style: normal;
+  text-align: right;
+  padding-right: 24px;
 }
