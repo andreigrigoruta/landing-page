@@ -20,16 +20,27 @@ body {
 .header {
   display: flex;
   align-items: center;
-  padding: 112px 160px;
   gap: 48px;
-  justify-content: space-between;
+  max-width: 948px;
+  margin: 112px auto;
+}
+
+.left-header {
+  max-width: 450px;
+}
+
+.header-image {
+  height: 228px;
+  width: 450px;
+  object-fit: cover;
 }
 
 .menu-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 16px 160px;
+  max-width: 948px;
+  margin: 16px auto;
 }
 
 ul {
@@ -97,12 +108,6 @@ h2 {
 h3 {
   font-size: 18px;
   color: #f9faf8;
-}
-
-.header-image {
-  width: 450px;
-  max-height: 228px;
-  object-fit: cover;
 }
 
 .button-signup {
@@ -188,7 +193,7 @@ p.author {
   padding: 40px 100px;
   border-radius: 10px;
   flex-grow: 1;
-  max-width: 880px;
+  max-width: 948px;
 }
 
 .fourth-1st p {
