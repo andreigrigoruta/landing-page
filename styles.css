@@ -148,6 +148,7 @@ h3 {
   margin: 0;
   padding: 0;
   object-fit: cover;
+  cursor: pointer;
 }
 
 .pictures {
@@ -244,4 +245,8 @@ footer p {
   color: #e5e7eb;
   max-width: fit-content;
   padding: 0;
+}
+
+button {
+  cursor: pointer;
 }
