@@ -104,8 +104,7 @@ h1 {
 h2 {
   font-size: 32px;
   color: #1f2937;
-  padding: 48px 0;
-  margin: 0;
+  margin: 48px 0;
   text-align: center;
 }
 
@@ -142,7 +141,7 @@ h3 {
 
 .second-section {
   width: 100%;
-  padding-bottom: 100px;
+  margin-bottom: 120px;
 }
 
 .pictures p {
@@ -155,12 +154,7 @@ h3 {
 }
 
 .third-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   width: 100%;
-  height: 400px;
   background-color: #e5e7eb;
 }
 
@@ -169,7 +163,7 @@ h3 {
   font-style: italic;
   color: #1f2937;
   max-width: 680px;
-  margin: 0;
+  margin: 125px auto 0;
   padding: 0;
 }
 
@@ -179,7 +173,7 @@ p.author {
   font-style: normal;
   text-align: right;
   padding-right: 24px;
-  width: 680px;
+  margin: 0 auto 125px;
 }
 
 .fourth-section {
