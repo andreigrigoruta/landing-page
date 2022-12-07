@@ -1,5 +1,5 @@
 :root {
-  --mw: min(948px, 85vw);
+  --mw: min(988px, 85vw);
 }
 
 html {
@@ -30,7 +30,15 @@ body {
 }
 
 .left-header {
-  max-width: 450px;
+  flex: 1;
+}
+
+.right-header {
+  align-self: stretch;
+  flex: 1.2;
+  border-radius: 8px;
+  background: url(images/header-image.jpg);
+  background-size: cover;
 }
 
 .header-image {
@@ -49,6 +57,7 @@ body {
   justify-content: space-between;
   max-width: var(--mw);
   margin: 16px auto;
+  gap: 32px;
 }
 
 ul {
