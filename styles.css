@@ -54,6 +54,8 @@ body {
 
 .nav-container.container-first-section {
   position: fixed;
+  background-color: #1f2937d4;
+  backdrop-filter: blur(30px);
 }
 
 .menu-container {
@@ -69,6 +71,8 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  text-transform: uppercase;
+  font-weight: 600;
 }
 
 .logo {
@@ -149,6 +153,16 @@ h3 {
   padding: 0;
   object-fit: cover;
   cursor: pointer;
+  -webkit-filter: grayscale(90%) blur(2px);
+  filter: grayscale(90%) blur(2px);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  overflow: hidden;
+}
+
+.picture:hover img {
+  -webkit-filter: grayscale(0) blur(0);
+  filter: grayscale(0) blur(0);
 }
 
 .pictures {
