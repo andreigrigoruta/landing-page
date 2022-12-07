@@ -1,5 +1,7 @@
 :root {
   --mw: min(988px, 85vw);
+  --mw2: min(680px, 80vw);
+  --mw3: min(720px, 80vw);
 }
 
 html {
@@ -158,6 +160,7 @@ h3 {
 .second-section {
   width: 100%;
   margin-bottom: 120px;
+  max-width: var(--mw3);
 }
 
 .pictures p {
@@ -177,7 +180,7 @@ h3 {
   font-size: 28px;
   font-style: italic;
   color: #1f2937;
-  max-width: 680px;
+  max-width: var(--mw2);
   margin: 125px auto 0;
   padding: 0;
 }
@@ -200,10 +203,11 @@ p.author {
   justify-content: space-between;
   align-items: center;
   background-color: #3882f6;
-  padding: 40px 100px;
+  padding: 40px min(100px, 10vw);
   border-radius: 10px;
   max-width: var(--mw);
   margin: 100px auto;
+  gap: 16px;
 }
 
 .fourth-1st p {
