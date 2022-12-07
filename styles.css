@@ -177,10 +177,7 @@ p.author {
 }
 
 .fourth-section {
-  padding: 100px 0;
   width: 100%;
-  display: flex;
-  justify-content: center;
 }
 
 .container-fourth-section {
@@ -190,18 +187,14 @@ p.author {
   background-color: #3882f6;
   padding: 40px 100px;
   border-radius: 10px;
-  flex-grow: 1;
   max-width: 948px;
+  margin: 100px auto;
 }
 
 .fourth-1st p {
   margin: 0;
   padding: 2px 0;
   font-size: 14px;
-}
-
-.fourth-1st {
-  padding-right: 20px;
 }
 
 #signup2 {
