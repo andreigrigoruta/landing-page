@@ -37,7 +37,7 @@ body {
   align-self: stretch;
   flex: 1.2;
   border-radius: 8px;
-  background: url(images/header-image.jpg);
+  background: url(images/header-image.jpg) center;
   background-size: cover;
 }
 
