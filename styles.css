@@ -1,3 +1,7 @@
+:root {
+  --mw: min(948px, 85vw);
+}
+
 html {
   box-sizing: border-box;
 }
@@ -21,7 +25,7 @@ body {
   display: flex;
   align-items: center;
   gap: 48px;
-  max-width: 948px;
+  max-width: var(--mw);
   margin: 165px auto 112px auto;
 }
 
@@ -43,7 +47,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-width: 948px;
+  max-width: var(--mw);
   margin: 16px auto;
 }
 
@@ -186,7 +190,7 @@ p.author {
   background-color: #3882f6;
   padding: 40px 100px;
   border-radius: 10px;
-  max-width: 948px;
+  max-width: var(--mw);
   margin: 100px auto;
 }
 
@@ -216,7 +220,6 @@ footer {
   background-color: #1f2937;
   color: white;
   width: 100%;
-  /* text-align: center; */
 }
 
 footer p {
