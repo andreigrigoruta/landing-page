@@ -149,7 +149,6 @@ h3 {
   color: #1f2937;
   text-align: center;
   width: 145px;
-  margin: 0;
   padding: 0;
 }
 
@@ -217,11 +216,13 @@ footer {
   background-color: #1f2937;
   color: white;
   width: 100%;
-  text-align: center;
+  /* text-align: center; */
 }
 
 footer p {
   font-size: 14px;
-  padding: 36px 0;
+  margin: 36px auto;
   color: #e5e7eb;
+  max-width: fit-content;
+  padding: 0;
 }
