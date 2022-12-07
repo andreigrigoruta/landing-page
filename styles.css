@@ -22,7 +22,7 @@ body {
   align-items: center;
   gap: 48px;
   max-width: 948px;
-  margin: 112px auto;
+  margin: 165px auto 112px auto;
 }
 
 .left-header {
