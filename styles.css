@@ -35,6 +35,10 @@ body {
   object-fit: cover;
 }
 
+.nav-container.container-first-section {
+  position: fixed;
+}
+
 .menu-container {
   display: flex;
   align-items: center;
