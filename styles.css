@@ -275,14 +275,29 @@ button {
   cursor: pointer;
 }
 
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 3px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #e5e7eb;
+}
+
+.hamburger {
+  display: none;
+}
+
 .menu-mobile {
   align-items: center;
   flex-direction: column;
   gap: 24px;
   border-top: 1px solid #e5e7eb75;
+  display: none;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .menu-mobile {
     display: none;
   }
@@ -292,17 +307,22 @@ button {
   }
 }
 
-@media (max-width: 767px) {
-  .menu-mobile {
+@media (max-width: 768px) {
+  .menu-mobile.active {
     display: flex;
   }
 
-  .header {
+  /* .header {
     margin: 283px auto 112px auto;
-  }
+  } */
 
   .menu {
     display: none;
+  }
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
   }
 
   li:nth-child(3) {
