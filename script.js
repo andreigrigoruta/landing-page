@@ -4,13 +4,28 @@ document.addEventListener("DOMContentLoaded", function () {
 
   hamburger.addEventListener("click", mobileMenu);
 
-  function mobileMenu() {
-    hamburger.classList.toggle("active");
-    navMenu.classList.toggle("active");
+  function check(event) {
+    if (
+      navMenu.classList.contains("active") &&
+      !event.target.isEqualNode(navMenu) &&
+      !navMenu.contains(event.target) &&
+      !hamburger.contains(event.target)
+    ) {
+      hamburger.classList.remove("active");
+      navMenu.classList.remove("active");
+      document.removeEventListener("click", check);
+    }
   }
 
-  // navMenu.addEventListener("focusout", (event) => {
-  //   hamburger.classList.toggle("active");
-  //   navMenu.classList.toggle("active");
-  // });
+  function mobileMenu() {
+    if (!hamburger.classList.contains("active")) {
+      hamburger.classList.add("active");
+      navMenu.classList.add("active");
+      document.addEventListener("click", check);
+    } else {
+      hamburger.classList.remove("active");
+      navMenu.classList.remove("active");
+      document.removeEventListener("click", check);
+    }
+  }
 });
