@@ -297,6 +297,20 @@ button {
   display: none;
 }
 
+@keyframes scale-display {
+  0% {
+    opacity: 0;
+    transform: scaleX(0);
+    -webkit-transform: scaleX(0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scaleX(1);
+    -webkit-transform: scaleX(1);
+  }
+}
+
 @media (min-width: 769px) {
   .menu-mobile {
     display: none;
@@ -309,6 +323,8 @@ button {
 
 @media (max-width: 768px) {
   .menu-mobile.active {
+    transform-origin: left;
+    animation: scale-display 0.3s;
     display: flex;
   }
 
