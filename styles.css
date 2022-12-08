@@ -79,6 +79,7 @@ ul {
 .menu li a:hover {
   color: #3882f6;
 }
+
 .logo {
   max-height: 50px;
 }
@@ -268,4 +269,27 @@ footer p {
 
 button {
   cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .menu {
+    position: fixed;
+    /* left: -100%; */
+    left: 0;
+    background-color: #1f2937d4;
+    top: 3.3rem;
+    flex-direction: column;
+    width: 100%;
+    gap: 0px;
+    backdrop-filter: blur(30px);
+    /* box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05); */
+  }
+
+  li {
+    margin: 1rem 0;
+  }
+
+  .header {
+    margin: 315px auto 112px auto;
+  }
 }
