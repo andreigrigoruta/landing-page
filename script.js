@@ -21,14 +21,8 @@ document.addEventListener("DOMContentLoaded", function () {
   function mobileMenu() {
     const action = hamburger.classList.contains("active") ? "remove" : "add";
 
-    if (action === "add") {
-      hamburger.classList[action]("active");
-      navMenu.classList[action]("active");
-      document.addEventListener("click", check);
-    } else {
-      hamburger.classList[action]("active");
-      navMenu.classList[action]("active");
-      document[`${action}EventListener`]("click", check);
-    }
+    hamburger.classList[action]("active");
+    navMenu.classList[action]("active");
+    document[`${action}EventListener`]("click", check);
   }
 });
